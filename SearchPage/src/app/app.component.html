@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <div class="d-flex flex-row form-group" style="position: absolute;left: 40%;top:30%;">
+    <input type="text" class="form-control" style="width: 450px;" placeholder="Search..." [(ngModel)]="filterTerm">
+    <button mat-raised-button color="primary" (click)="checkSts()">Search</button>
+  </div>
+  <img src="https://www.totalbug.com/wp-content/uploads/2018/06/fifa-19.png" alt="">
+  <table style="position: absolute;top: 40%;" *ngIf="check" class="table">
+    <thead class="thead-light">
+      <tr>
+        <th class="heading" scope="col">ID</th>
+        <th class="heading" scope="col">Name</th>
+        <th class="heading" scope="col">Club</th>
+        <th class="heading" scope="col">Nationality</th>
+        <th class="heading" scope="col">Age</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userRecords | filter:filterTerm">
+        <td class="heading">{{user.id}}</td>
+        <td><a href="#">{{user.name}}</a> </td>
+        <td class="heading">{{user.club}}</td>
+        <td class="heading">{{user.nationality}}</td>
+        <td class="heading">{{user.age}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
