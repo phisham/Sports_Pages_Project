@@ -1,0 +1,41 @@
+.Heading{
+    position: absolute;
+    left: 43%;
+    top:5%
+}
+.content{
+    position: absolute;
+    left: 55%;
+    top:20%
+}
+.line{
+    height: 98%;
+    width: 1px;
+    background-color: rgb(27, 22, 22);
+    margin-left: 50%;
+    margin-top: 9%;
+}
+.chart{
+    display: block;
+    position:absolute;
+    left: 9%;
+    top:15%;
+}
+#chartcontainer{
+    width: 600px;
+}
+@media screen and (max-width: 800px){
+    .content{
+        top:70%;
+        left: 5%;
+    }
+    .line{
+        background-color: white;
+    }
+    #chartcontainer{
+        margin-left: -19%;
+    }
+    .Heading{
+        left: 30%;
+    }
+}
