@@ -16,7 +16,7 @@ export class AppComponent {
       "age": "31",
       "nationality": "Argentina",
       "club":"Fc Barcelona",
-      
+      "link":"https://player1-a56fb.web.app"
 
     
     },
@@ -26,7 +26,7 @@ export class AppComponent {
       "age": "33",
       "nationality": "Portugal",
       "club":"Juventus",
-      
+      "link":""
       
     },
     {
@@ -35,7 +35,7 @@ export class AppComponent {
       "age": "26",
       "nationality": "Brazil",
       "club":"Paris Saint-Germain",
-      
+      "link":""
     },
     {
        "id": 4,
@@ -43,7 +43,7 @@ export class AppComponent {
       "age": "27",
       "nationality": "Spain",
       "club":"Manchester United",
-      
+      "link":""
       
     },
     {
@@ -52,7 +52,7 @@ export class AppComponent {
       "age": "27",
       "nationality": "Belgium",
       "club":"Manchester City",
-      
+      "link":""
     },
     
   ]

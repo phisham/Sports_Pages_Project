@@ -18,7 +18,7 @@
     <tbody>
       <tr *ngFor="let user of userRecords | filter:filterTerm">
         <td class="heading">{{user.id}}</td>
-        <td><a href="#">{{user.name}}</a> </td>
+        <td><a href={{user.link}}>{{user.name}}</a> </td>
         <td class="heading">{{user.club}}</td>
         <td class="heading">{{user.nationality}}</td>
         <td class="heading">{{user.age}}</td>
