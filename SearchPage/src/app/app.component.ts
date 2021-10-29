@@ -26,8 +26,8 @@ export class AppComponent {
       "age": "33",
       "nationality": "Portugal",
       "club":"Juventus",
-      "link":""
-      
+      "link":"https://player2-a9e19.web.app/"
+     
     },
     {
        "id": 3,
@@ -35,7 +35,7 @@ export class AppComponent {
       "age": "26",
       "nationality": "Brazil",
       "club":"Paris Saint-Germain",
-      "link":""
+      "link":"https://player3-e2a9.web.app/"
     },
     {
        "id": 4,
@@ -43,7 +43,7 @@ export class AppComponent {
       "age": "27",
       "nationality": "Spain",
       "club":"Manchester United",
-      "link":""
+      "link":"https://player4-ba959.web.app/"
       
     },
     {
@@ -52,7 +52,7 @@ export class AppComponent {
       "age": "27",
       "nationality": "Belgium",
       "club":"Manchester City",
-      "link":""
+      "link":"https://player5-a83aa.web.app/"
     },
     
   ]

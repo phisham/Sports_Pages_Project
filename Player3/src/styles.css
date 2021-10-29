@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;background-image: url(IMG_20211028_120530.jpg);
+background-size: cover;height: 560px;}
+@media screen and (max-width: 800px){
+    body{
+        background-image:none;
+    }
+}
